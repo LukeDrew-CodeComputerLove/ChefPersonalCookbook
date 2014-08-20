@@ -4,3 +4,11 @@
 site 'https://supermarket.getchef.com/api/v1'
 
 cookbook 'iis_urlrewrite', "1.0.0"
+
+cookbook 'ms_dotnet2'
+
+cookbook 'ms_dotnet35'
+
+cookbook 'ms_dotnet4'
+
+cookbook 'ms_dotnet45'
