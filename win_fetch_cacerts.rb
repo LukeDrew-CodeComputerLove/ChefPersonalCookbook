@@ -1,7 +1,7 @@
 require 'net/http'
 
-# create a path to the file "C:\RailsInstaller\cacert.pem"
-cacert_file = File.join(%w{c: RailsInstaller cacert.pem})
+# create a path to the file "C:\cacert.pem"
+cacert_file = File.join(%w{c: cacert.pem})
 
 Net::HTTP.start("curl.haxx.se") do |http|
   resp = http.get("/ca/cacert.pem")
